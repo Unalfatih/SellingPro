@@ -2,7 +2,7 @@
 
 namespace EventBus.Base.Abstraction
 {
-    public interface IEventBusSubsriptionManager
+    public interface IEventBusSubscriptionManager
     {
         bool IsEmpty { get; }
 

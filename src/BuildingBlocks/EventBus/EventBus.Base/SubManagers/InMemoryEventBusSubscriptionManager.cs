@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace EventBus.Base.SubManagers
 {
-    internal class InMemoryEventBusSubscriptionManager : IEventBusSubsriptionManager
+    public class InMemoryEventBusSubscriptionManager : IEventBusSubscriptionManager
     {
         private readonly Dictionary<string, List<SubscriptionInfo>> _handlers;
         private readonly List<Type> _eventTypes;
