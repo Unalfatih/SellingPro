@@ -24,6 +24,7 @@ namespace EventBus.Base
 
         public object Connection { get; set; }
 
+
         public bool DeleteEventPrefix => !String.IsNullOrEmpty(EventNamePrefix);
 
         public bool DeleteEventSuffix => !String.IsNullOrEmpty(EventNameSuffix);
